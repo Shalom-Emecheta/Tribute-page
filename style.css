@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: whitesmoke;
+    margin: 0;
+}
+
+/*Navigation Bar Styling*/
+.container{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Grande', 'Lucida Sans Unicode',  'Helvetica'  Verdana, sans-serif;
+    width: 100%;
+}
+/*Using the class and element selector*/
+.container ul{
+    list-style: none;
+    background: rgb(31, 30, 30);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.container li{
+    display: inline-block;
+}
+
+/*using the element selector*/
+li{
+    color: white;
+    margin-top: 0%;
+    display: block;
+    padding: 20px 10px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+li:hover{
+    color: orange;
+}
+
+/*Tribute Content Styling*/
+
+/*Using the element selector*/
+a{
+    color: rgb(34, 126, 129);
+}
+
+p{
+    opacity: 1;
+}
+
+h5{
+    opacity: 0.6;
+}
+
+h1{
+    opacity: 1;
+    font-size: 3rem;
+    font-weight: light;
+}
+
+/*Using the class selector*/
+.child{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+    border: 1px solid white;
+    box-shadow: 0 0 2px 2px rgb(158, 157, 157);
+}
+
+
+.stevie{
+     text-align: center;
+}
+
+.grandchild{
+    display: block;
+    padding: 50px 120px;
+    overflow: hidden;
+    color: #333;
+}
+
+/*Using the element selector*/
+footer{
+  opacity: 1;
+  height: 228px;
+}
+
+footer{
+    border-top: 1px solid #CFCFCF;
+    padding-top: 50px;
+    width: 780px;
+    text-align: center;
+    display: block;
+    line-height: 1.5px;
+}
+
+/*Using the class selector*/
+.steveheader{
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    text-align: center;
+}
+
+.footet2{
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 18px;
+}
+
+.footer2{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
